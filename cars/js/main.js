@@ -1,4 +1,4 @@
-let game;
+var game;
 window.onload = function () {
     var config = {
         type: Phaser.Auto, // what graphics mode to use: Phaser.Canvas, Phaser.Web, or Phaser.Auto
@@ -7,5 +7,5 @@ window.onload = function () {
         parent: 'phaser-game', // div tag name, minus #
         scene: [SceneMain] // name of scene (game screen)
     };
-    var game = new Phaser.Game(config);
+    game = new Phaser.Game(config);
 }

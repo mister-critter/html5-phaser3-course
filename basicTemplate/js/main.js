@@ -7,5 +7,5 @@ window.onload = function () {
         parent: 'phaser-game', // div tag name, minus #
         scene: [SceneMain] // name of scene (game screen)
     };
-    var game = new Phaser.Game(config);
+    game = new Phaser.Game(config);
 }
